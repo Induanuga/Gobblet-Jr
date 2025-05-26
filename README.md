@@ -33,7 +33,7 @@ OriginalGame/
 2. **Run the game:**
    - Navigate to the `AllLint` folder and run:
      ```
-     python gobbletfinal.py
+     python3 gobbletfinal.py
      ```
    - You can also try earlier versions (`v1.py`, `v2.py`, `v3.py`) for comparison.
 
