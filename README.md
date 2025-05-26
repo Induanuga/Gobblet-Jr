@@ -1,6 +1,6 @@
 # Gobblet Jr. Game
 
-Python implementation of the Gobblet Jr. (3x3)board game. The repository contains several versions of the same game, each reflecting improvements in code quality and style based on `pylint` reports.
+Python implementation of the Gobblet Jr. 3x3 board game. The repository contains several versions of the same game, each reflecting improvements in code quality and style based on `pylint` reports.
 
 ---
 
