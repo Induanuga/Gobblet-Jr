@@ -1,6 +1,6 @@
 # Gobblet Jr. Game
 
-Python implementation of the Gobblet Jr. board game. The repository contains several versions of the same game, each reflecting improvements in code quality and style based on `pylint` reports.
+Python implementation of the Gobblet Jr. (3x3)board game. The repository contains several versions of the same game, each reflecting improvements in code quality and style based on `pylint` reports.
 
 ---
 
@@ -53,3 +53,14 @@ OriginalGame/
 - Playable Gobblet Jr. game with a graphical interface (using pygame).
 - Multiple code versions showing progressive improvements in code quality.
 - Code adheres to Python best practices and style guidelines.
+
+---
+
+## Game Rules
+
+- The object of the game is to get three in a row of your color, vertically, horizontally, or diagonally. Size doesn’t matter for determining a winner.
+- Each player (**blue** or **pink**) starts with 6 pieces: two large, two medium, and two small.
+- On each turn, a player can either place a new piece on the board, or move a piece already on the board—from anywhere to anywhere, as long as the “from” and “to” are different.
+- A piece can be placed (or moved to) an empty space, or it can be placed/moved on top of a smaller piece already on the board, “gobbling” the smaller piece. The smaller piece does not have to be an opponent’s piece, and the smaller piece may itself have gobbled another piece previously.
+- Only visible pieces can be moved, and only visible pieces count toward winning. Gobbled pieces stay on the board, however, and when a piece is moved, any piece that it gobbled stays put and becomes visible.
+- If moving a piece exposes a winning sequence for the opponent, and if the destination for the move does not cover up one of the other pieces in the sequence, then the opponent wins—even if the move makes a winning sequence for the moving player.
